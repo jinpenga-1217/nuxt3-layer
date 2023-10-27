@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     keepalive: true
   },
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon'],
   // https://tailwindcss.nuxtjs.org/
   // Defaults options
   tailwindcss: {
